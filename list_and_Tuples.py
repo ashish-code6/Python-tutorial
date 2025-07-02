@@ -40,4 +40,29 @@ list.pop()
 print(list)
 
 
+#---------------Tuple-------------
+
+#Tuple is mutable 
+
+tuple=(4,69,6,8,9)
+print(tuple)
+
+print(type(tuple))
+
+print("--------------")
+print(tuple.index(6))
+
+print(tuple.count(9))
+
+#-------------
+movieList=[];
+movieOne=input("Enter Movie Name :")
+# print(type(movieList))
+movieList.append(movieOne);
+movieTwo=input("enter second Movie Name:")
+movieList.append(movieTwo);
+
+print(movieList)
+
+
 
