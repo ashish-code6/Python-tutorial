@@ -1,50 +1,56 @@
-str1='Python one';
-str2="Python Two";
-str3='''Python Three''';
+# str1='Python one';
+# str2="Python Two";
+# str3='''Python Three''';
 
-print(str1)
-print(str2)
-print(str3)
-
-
-print(str2[3])
-
-# slicing in Python
-
-lang = "programining"
-
-print(lang[0:4])
-print(lang[:8])
-
-#---------Negative Slicing----------
-
-fruit= "Apple"
-
-print(fruit[-3:-1])
+# print(str1)
+# print(str2)
+# print(str3)
 
 
-#-----------String Function----------
+# print(str2[3])
 
-title="hi i am ashish kumar"
+# # slicing in Python
 
-print(title.endswith("ari"))
+# lang = "programining"
 
-print(title.capitalize())
+# print(lang[0:4])
+# print(lang[:8])
 
-print(title.replace('ashish',str(8)))
+# #---------Negative Slicing----------
 
-print(title.find("am"))
+# fruit= "Apple"
 
-# Conditional Statment
+# print(fruit[-3:-1])
 
-marks=int(input("enter the marks:"))
-print(type(marks))
 
-if marks>=90:
-    print("A")
-elif marks>=75:
-    print("B")
-elif marks>=60:
-    print("c")
-else:
-    print("F")
+# #-----------String Function----------
+
+# title="hi i am ashish kumar"
+
+# print(title.endswith("ari"))
+
+# print(title.capitalize())
+
+# print(title.replace('ashish',str(8)))
+
+# print(title.find("am"))
+
+# # Conditional Statment
+
+# marks=int(input("enter the marks:"))
+# print(type(marks))
+
+# if marks>=90:
+#     print("A")
+# elif marks>=75:
+#     print("B")
+# elif marks>=60:
+#     print("c")
+# else:
+#     print("F")
+
+
+
+nm="Ashish"
+print(nm.rstrip(""))
+
